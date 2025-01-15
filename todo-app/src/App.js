@@ -11,7 +11,7 @@ function App() {
       setNewTodo('');
     }
   };
-
+//new line
   const removeTodo = (index) => {
     const updatedTodos = todos.filter((_, i) => i !== index);
     setTodos(updatedTodos);
